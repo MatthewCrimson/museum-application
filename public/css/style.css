@@ -26,19 +26,20 @@ body, html{
 
 .button{
   text-align: center;
+  margin-top: 25vh;
 }
 
 .button a{
   display: inline-block;
   font-size: 26px;
-  margin-top: 40vh;
   color: white;
-  background-color: rgba(213, 81, 64, .85);
-  padding: 10px;
+  background-color: rgba(213, 81, 64, .9);
+  padding: 12px;
   border-radius: 6px;
   text-decoration: none;
 }
 
 .button a:hover{
-  background-color: rgba(52, 53, 55, .85);
-}
+  background-color: rgba(0, 0, 0, .8);
+  color: rgba(255, 255, 255, .8);
+  }
