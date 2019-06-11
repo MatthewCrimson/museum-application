@@ -58,16 +58,16 @@ body, html{
 
 .button2 a{
   display: inline-block;
-  font-size: 26px;
+  font-size: 25px;
   margin-top: 2vh;
   color: white;
-  border: 2px white solid;
-  background-color: rgba(255, 255, 255, .25);
+  background-color: rgba(0, 0, 0, .83);
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 6px;
   text-decoration: none;
 }
 
 .button2 a:hover{
-  background-color: rgba(0, 0, 0, .5);
+  color: black;
+  background-color: white;
 }
