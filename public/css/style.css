@@ -33,12 +33,12 @@ body, html{
   font-size: 26px;
   margin-top: 40vh;
   color: white;
-  background-color: rgba(213, 81, 64);
+  background-color: rgba(213, 81, 64, .85);
   padding: 10px;
   border-radius: 6px;
   text-decoration: none;
 }
 
 .button a:hover{
-  background-color: rgba(52, 53, 55);
+  background-color: rgba(52, 53, 55, .85);
 }
