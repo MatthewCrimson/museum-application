@@ -20,14 +20,14 @@ body, html{
   color: white;
   font-size: 40px;
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 13vh;
   text-transform: uppercase;
 }
 
 .selector{
   width: 70%;
   margin: 0 auto;
-  height: 65vh;
+  height: 68vh;
   overflow-y: scroll;
 }
 
