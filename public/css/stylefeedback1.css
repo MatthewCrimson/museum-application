@@ -2,7 +2,7 @@ body, html{
   font-family:"Lato", sans-serif;
   height:100%;
   margin:0;
-
+  overflow: hidden;
 }
 
 .banner{
@@ -26,7 +26,7 @@ body, html{
 
 .button{
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 1vh;
 
 }
 
@@ -43,10 +43,6 @@ body, html{
 .button a:hover{
   color: rgba(255, 255, 255, .8);
   background-color: rgba(0, 0, 0, .8);
-}
-
-.button2{
-  text-align: center;
 }
 
 .return-button{
