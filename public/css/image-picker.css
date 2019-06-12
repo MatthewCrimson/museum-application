@@ -34,4 +34,4 @@ ul.thumbnails.image_picker_selector {
         -webkit-user-drag: none; }
     /* line 48, source/sass/image-picker.scss */
     ul.thumbnails.image_picker_selector li .thumbnail.selected {
-      background: #08C; }
+      background: rgba(213, 81, 64, .8); }
