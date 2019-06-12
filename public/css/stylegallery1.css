@@ -68,6 +68,5 @@ body, html{
 }
 
 .button2 a:hover{
-  color: black;
-  background-color: white;
+  background-color: rgba(52, 53, 55);
 }
