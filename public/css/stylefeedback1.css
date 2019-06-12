@@ -24,6 +24,13 @@ body, html{
   text-transform: uppercase;
 }
 
+.selector{
+  width: 70%;
+  margin: 0 auto;
+  height: 65vh;
+  overflow-y: scroll;
+}
+
 .button{
   text-align: center;
   margin-top: 1vh;
