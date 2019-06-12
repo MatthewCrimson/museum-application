@@ -5,14 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/stylefeedback1.css">
+  <link rel="stylesheet" href="css/image-picker.css">
+  <script></script>
   <title>Museum Application</title>
 </head>
 <body>
   <header>
   </header>
 
-  <div class="banner">.
+  <div class="banner">
     <h1>Please select your highlights of this gallery</h1>
+
+    <select class="image-picker show-html" data-limit="4" multiple="multiple">
+      <option data-img-src="http://placekitten.com/220/200" value="1">Cute Kitten 1</option>
+      <option data-img-src="http://placekitten.com/180/200" value="2">Cute Kitten 2</option>
+      <option data-img-src="http://placekitten.com/130/200" value="3">Cute Kitten 3</option>
+      <option data-img-src="http://placekitten.com/270/200" value="4">Cute Kitten 4</option>
+    </select>
 
     <div class="button">
       <a href="gallery2.html"class="next">Next Gallery &raquo;</a>
@@ -21,7 +30,14 @@
     <div class="return-button">
       <a href="index.html">Exit Demo</a>
     </div>
-
   </div>
+
+  <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous">
+  </script>
+  <script src="JS/image-picker.js"></script>
+  <script src="JS/main_script.js"></script>
 </body>
 </html>
