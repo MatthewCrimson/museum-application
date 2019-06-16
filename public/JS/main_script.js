@@ -3,7 +3,6 @@ $("select").imagepicker()
 $
 
 $('#submitbutton1').click(function () {
-  testy = $("select").data('picker');
-  console.log("test1");
-  console.log($("select").data('picker').sync_picker_with_select());
+  console.log("selected works: " + $("select").data('picker').selected_values());
+  window.location.href = "gallery2.html";
 });
