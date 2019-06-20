@@ -24,18 +24,26 @@ body, html{
   text-transform: uppercase;
 }
 
+.banner h2{
+  opacity: 0.85;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2vh;
+  text-transform: none;
+}
+
 .button{
   text-align: center;
   margin-top: 20vh;
 }
 
 .button a{
-  margin:0;
   display: inline-block;
-  font-size: 25px;
+  font-size: 26px;
   color: white;
   background-color: rgba(213, 81, 64, .9);
-  padding: 10px;
+  padding: 12px;
   border-radius: 6px;
   text-decoration: none;
 }
@@ -43,6 +51,26 @@ body, html{
 .button a:hover{
   background-color: rgba(0, 0, 0, .8);
   color: rgba(255, 255, 255, .8);
+  }
+
+.button2{
+  text-align: center;
+    margin-top: 2vh;
+}
+
+.button2 a{
+  display: inline-block;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, .83);
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button2 a:hover{
+  color: rgba(255, 255, 255, .8);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .return-button{
@@ -55,7 +83,6 @@ body, html{
 }
 
 .return-button a{
-  margin:0;
   display: inline-block;
   font-size: 25px;
   color: rgba(255, 255, 255, .7);
@@ -66,27 +93,6 @@ body, html{
 }
 
 .return-button a:hover{
-  background-color: rgba(0, 0, 0, .8);
-  color: rgba(255, 255, 255, .8);
-}
-
-.previous-next-button{
-  text-align: center;
-  margin-top: 2vh;
-}
-
-.previous-next-button a{
-  margin:0;
-  display: inline-block;
-  font-size: 25px;
-  color: white;
-  background-color: rgba(0, 0, 0, .83);
-  padding: 10px;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-.previous-next-button a:hover{
   background-color: rgba(0, 0, 0, .8);
   color: rgba(255, 255, 255, .8);
 }
